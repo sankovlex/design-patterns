@@ -12,7 +12,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Decorator.Wr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Decorator.WritingScope.TempFile", "Decorator\DesignPatterns.Decorator.WritingScope.TempFile\DesignPatterns.Decorator.WritingScope.TempFile.csproj", "{5B156E83-79E7-4104-A0F8-2C5690DCD96F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Decorator.WritingScope.UnitTests2", "Decorator\DesignPatterns.Decorator.WritingScope.UnitTests2\DesignPatterns.Decorator.WritingScope.UnitTests2.csproj", "{BD486F70-4CDB-4298-A3E5-7F35A8064B01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Decorator.WritingScope.Files.UnitTests", "Decorator\DesignPatterns.Decorator.WritingScope.Files.UnitTests\DesignPatterns.Decorator.WritingScope.Files.UnitTests.csproj", "{BD486F70-4CDB-4298-A3E5-7F35A8064B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Decorator.WritingScope.Files", "Decorator\DesignPatterns.Decorator.WritingScope.Files\DesignPatterns.Decorator.WritingScope.Files.csproj", "{4D21051A-BBDC-4543-BE2B-5195959B9575}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,7 @@ Global
 		{3524C589-A542-4F82-8E0C-439ED66A7581} = {6C31CEBF-F328-4555-8D03-86EB8226BA16}
 		{5B156E83-79E7-4104-A0F8-2C5690DCD96F} = {6C31CEBF-F328-4555-8D03-86EB8226BA16}
 		{BD486F70-4CDB-4298-A3E5-7F35A8064B01} = {6C31CEBF-F328-4555-8D03-86EB8226BA16}
+		{4D21051A-BBDC-4543-BE2B-5195959B9575} = {6C31CEBF-F328-4555-8D03-86EB8226BA16}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{98DA869E-F8B8-4A59-82BC-CD76FB3F903E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -52,5 +55,9 @@ Global
 		{BD486F70-4CDB-4298-A3E5-7F35A8064B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD486F70-4CDB-4298-A3E5-7F35A8064B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD486F70-4CDB-4298-A3E5-7F35A8064B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D21051A-BBDC-4543-BE2B-5195959B9575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D21051A-BBDC-4543-BE2B-5195959B9575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D21051A-BBDC-4543-BE2B-5195959B9575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D21051A-BBDC-4543-BE2B-5195959B9575}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

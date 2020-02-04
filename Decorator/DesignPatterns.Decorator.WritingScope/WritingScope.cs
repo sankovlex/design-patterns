@@ -6,8 +6,9 @@ namespace DesignPatterns.Decorator.WritingScope
 	/// <inheritdoc />
 	public abstract class WritingScope : IDisposable
 	{
+		public const string CorruptedFileExtension = ".crp";
+
 		protected bool _isCompleted;
-		private const string CorruptedFileExtension = ".crp";
 
 		/// <summary>
 		/// Initialize instance of <see cref="WritingScope"/>.
@@ -24,13 +25,6 @@ namespace DesignPatterns.Decorator.WritingScope
 			if (filename == null)
 			{
 				throw new ArgumentNullException(nameof(filename));
-			}
-
-			if (File.Exists(filename))
-			{
-				throw new ArgumentException(
-					paramName: filename,
-					message: $"File {filename} already exists.");
 			}
 
 			Filename = filename;

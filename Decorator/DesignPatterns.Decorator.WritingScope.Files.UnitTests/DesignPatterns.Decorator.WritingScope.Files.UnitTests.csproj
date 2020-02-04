@@ -10,13 +10,14 @@
         <PackageReference Include="nunit" Version="3.12.0" />
         <PackageReference Include="NUnit3TestAdapter" Version="3.13.0" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+        <PackageReference Include="Shouldly" Version="3.0.2" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\DesignPatterns.Decorator.WritingScope.CheckSum\DesignPatterns.Decorator.WritingScope.CheckSum.csproj" />
       <ProjectReference Include="..\DesignPatterns.Decorator.WritingScope.Deflate\DesignPatterns.Decorator.WritingScope.Deflate.csproj" />
+      <ProjectReference Include="..\DesignPatterns.Decorator.WritingScope.Files\DesignPatterns.Decorator.WritingScope.Files.csproj" />
       <ProjectReference Include="..\DesignPatterns.Decorator.WritingScope.TempFile\DesignPatterns.Decorator.WritingScope.TempFile.csproj" />
-      <ProjectReference Include="..\DesignPatterns.Decorator.WritingScope.UnitTests\DesignPatterns.Decorator.WritingScope.UnitTests.csproj" />
       <ProjectReference Include="..\DesignPatterns.Decorator.WritingScope\DesignPatterns.Decorator.WritingScope.csproj" />
     </ItemGroup>
 
